@@ -1,0 +1,462 @@
+/* DEFAULTS available in all webpages */
+/* CUSTOMMER COLOURS */
+/* MIXINS AND GUARDS */
+/* ---- BASIC ELEMENTS ---- */
+/* Links */
+a {
+  color: #ff7b00;
+}
+a:hover {
+  color: #ffa552;
+}
+main a.btn {
+  color: white;
+}
+main a.btn:hover {
+  color: white;
+}
+hr {
+  border: none;
+  height: 1px;
+  /* Fallback if gradient is not supported at all */
+  background-color: #e5e4e2;
+  /* Older Browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(229, 228, 226, 0.85));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(229, 228, 226, 0.85)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(229, 228, 226, 0.85) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(229, 228, 226, 0.85) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(229, 228, 226, 0.85) 100%);
+  /* W3C CSS3 */
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.85) 14%, rgba(229, 228, 226, 0.85) 100%);
+  color: black;
+}
+hr a {
+  color: #ff7b00;
+}
+hr a:hover {
+  color: #ffa552;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  margin-top: 0;
+}
+.badge {
+  background-color: #414141;
+}
+/* ---- CONTENT HEADER ---- */
+.navbar-default {
+  background-color: #414141;
+  border-color: #414141;
+}
+header a.navbar-brand.logo {
+  padding: 0 15px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+header .nav {
+  margin-top: 10px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #736f6e;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ff7b00;
+  background-color: transparent;
+}
+/* ---- CONTENT FOOTER ---- */
+footer {
+  display: block;
+  height: 100%;
+  margin-top: 3em;
+  padding-top: 3em;
+  color: #736f6e;
+  background: #414141;
+}
+footer a {
+  color: #b25600;
+}
+/* -------------------- SNIPPET OPTIONS ------------------------ */
+.dd_orange_light {
+  background-color: #ff8819;
+  color: black;
+}
+.dd_orange_light a {
+  color: #7a3b00;
+}
+.dd_orange_light a:hover {
+  color: #cc6200;
+}
+.dd_orange_medium {
+  background-color: #ff7b00;
+  color: white;
+}
+.dd_orange_medium a {
+  color: #ffcd9e;
+}
+.dd_orange_medium a:hover {
+  color: #ffa24c;
+}
+.dd_orange_dark {
+  background-color: #b25600;
+  color: white;
+}
+.dd_orange_dark a {
+  color: #ff8819;
+}
+.dd_orange_dark a:hover {
+  color: #c66000;
+}
+.dd_orange_black {
+  background-color: #401f00;
+  color: white;
+}
+.dd_orange_black a {
+  color: #ff8819;
+}
+.dd_orange_black a:hover {
+  color: #c66000;
+}
+.dd_lightblue {
+  background-color: #00cbff;
+  color: black;
+}
+.dd_lightblue a {
+  color: #ff7b00;
+}
+.dd_lightblue a:hover {
+  color: #ffa552;
+}
+.dd_lightblue_dark {
+  background-color: #008eb2;
+  color: white;
+}
+.dd_lightblue_dark a {
+  color: #ff8819;
+}
+.dd_lightblue_dark a:hover {
+  color: #c66000;
+}
+.dd_orange_light_tr {
+  background-color: #ff8819;
+  background-color: rgba(255, 136, 25, 0.85);
+  color: white;
+}
+.dd_orange_light_tr a {
+  color: #ffcd9e;
+}
+.dd_orange_light_tr a:hover {
+  color: #ffa24c;
+}
+.dd_orange_medium_tr {
+  background-color: #ff7b00;
+  background-color: rgba(255, 123, 0, 0.85);
+  color: white;
+}
+.dd_orange_medium_tr a {
+  color: #ffcd9e;
+}
+.dd_orange_medium_tr a:hover {
+  color: #ffa24c;
+}
+.dd_orange_dark_tr {
+  background-color: #b25600;
+  background-color: rgba(178, 86, 0, 0.85);
+  color: white;
+}
+.dd_orange_dark_tr a {
+  color: #ff8819;
+}
+.dd_orange_dark_tr a:hover {
+  color: #c66000;
+}
+.dd_orange_black_tr {
+  background-color: #401f00;
+  background-color: rgba(64, 31, 0, 0.85);
+  color: white;
+}
+.dd_orange_black_tr a {
+  color: #ff8819;
+}
+.dd_orange_black_tr a:hover {
+  color: #c66000;
+}
+.dd_lightblue_tr {
+  background-color: #00cbff;
+  background-color: rgba(0, 203, 255, 0.85);
+  color: black;
+}
+.dd_lightblue_tr a {
+  color: #ff7b00;
+}
+.dd_lightblue_tr a:hover {
+  color: #ffa552;
+}
+.dd_lightblue_dark_tr {
+  background-color: #008eb2;
+  background-color: rgba(0, 142, 178, 0.85);
+  color: white;
+}
+.dd_lightblue_dark_tr a {
+  color: #ff8819;
+}
+.dd_lightblue_dark_tr a:hover {
+  color: #c66000;
+}
+.dd_radgradient_orange_light {
+  /* Fallback if gradient is not supported at all */
+  background-color: #ff8819;
+  /* Older Browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(255, 136, 25, 0.85));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(255, 136, 25, 0.85)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(255, 136, 25, 0.85) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(255, 136, 25, 0.85) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(255, 136, 25, 0.85) 100%);
+  /* W3C CSS3 */
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.85) 14%, rgba(255, 136, 25, 0.85) 100%);
+  color: black;
+}
+.dd_radgradient_orange_light a {
+  color: #ff7b00;
+}
+.dd_radgradient_orange_light a:hover {
+  color: #ffa552;
+}
+.dd_radgradient_orange_medium {
+  /* Fallback if gradient is not supported at all */
+  background-color: #ff7b00;
+  /* Older Browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(255, 123, 0, 0.85));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(255, 123, 0, 0.85)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(255, 123, 0, 0.85) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(255, 123, 0, 0.85) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(255, 123, 0, 0.85) 100%);
+  /* W3C CSS3 */
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.85) 14%, rgba(255, 123, 0, 0.85) 100%);
+  color: black;
+}
+.dd_radgradient_orange_medium a {
+  color: #ff7b00;
+}
+.dd_radgradient_orange_medium a:hover {
+  color: #ffa552;
+}
+.dd_radgradient_orange_dark {
+  /* Fallback if gradient is not supported at all */
+  background-color: #b25600;
+  /* Older Browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(178, 86, 0, 0.85));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(178, 86, 0, 0.85)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(178, 86, 0, 0.85) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(178, 86, 0, 0.85) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(178, 86, 0, 0.85) 100%);
+  /* W3C CSS3 */
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.85) 14%, rgba(178, 86, 0, 0.85) 100%);
+  color: black;
+}
+.dd_radgradient_orange_dark a {
+  color: #ff7b00;
+}
+.dd_radgradient_orange_dark a:hover {
+  color: #ffa552;
+}
+.dd_radgradient_orange_black {
+  /* Fallback if gradient is not supported at all */
+  background-color: #401f00;
+  /* Older Browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(64, 31, 0, 0.85));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(64, 31, 0, 0.85)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(64, 31, 0, 0.85) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(64, 31, 0, 0.85) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(64, 31, 0, 0.85) 100%);
+  /* W3C CSS3 */
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.85) 14%, rgba(64, 31, 0, 0.85) 100%);
+  color: black;
+}
+.dd_radgradient_orange_black a {
+  color: #ff7b00;
+}
+.dd_radgradient_orange_black a:hover {
+  color: #ffa552;
+}
+.dd_radgradient_lightblue {
+  /* Fallback if gradient is not supported at all */
+  background-color: #00cbff;
+  /* Older Browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(0, 203, 255, 0.85));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(0, 203, 255, 0.85)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(0, 203, 255, 0.85) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(0, 203, 255, 0.85) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(0, 203, 255, 0.85) 100%);
+  /* W3C CSS3 */
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.85) 14%, rgba(0, 203, 255, 0.85) 100%);
+  color: black;
+}
+.dd_radgradient_lightblue a {
+  color: #ff7b00;
+}
+.dd_radgradient_lightblue a:hover {
+  color: #ffa552;
+}
+.dd_radgradient_lightblue_dark {
+  /* Fallback if gradient is not supported at all */
+  background-color: #008eb2;
+  /* Older Browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(0, 142, 178, 0.85));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(0, 142, 178, 0.85)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(0, 142, 178, 0.85) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(0, 142, 178, 0.85) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.85) 14%, rgba(0, 142, 178, 0.85) 100%);
+  /* W3C CSS3 */
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.85) 14%, rgba(0, 142, 178, 0.85) 100%);
+  color: black;
+}
+.dd_radgradient_lightblue_dark a {
+  color: #ff7b00;
+}
+.dd_radgradient_lightblue_dark a:hover {
+  color: #ffa552;
+}
+.dd_pattern_cartographer {
+  background: black url("/website_dd/static/src/img/patterns/cartographer.png") repeat;
+  color: white;
+}
+.dd_pattern_cartographer a {
+  color: #ff8819;
+}
+.dd_pattern_cartographer a:hover {
+  color: #c66000;
+}
+.dd_pattern_concrete_wall {
+  background: black url("/website_dd/static/src/img/patterns/concrete_wall.png") repeat;
+  color: white;
+}
+.dd_pattern_concrete_wall a {
+  color: #ff8819;
+}
+.dd_pattern_concrete_wall a:hover {
+  color: #c66000;
+}
+.dd_pattern_congruent_outline {
+  background: black url("/website_dd/static/src/img/patterns/congruent_outline.png") repeat;
+  color: white;
+}
+.dd_pattern_congruent_outline a {
+  color: #ff8819;
+}
+.dd_pattern_congruent_outline a:hover {
+  color: #c66000;
+}
+.dd_pattern_debut_dark {
+  background: black url("/website_dd/static/src/img/patterns/debut_dark.png") repeat;
+  color: white;
+}
+.dd_pattern_debut_dark a {
+  color: #ff8819;
+}
+.dd_pattern_debut_dark a:hover {
+  color: #c66000;
+}
+.dd_pattern_debut_light {
+  background: white url("/website_dd/static/src/img/patterns/debut_light.png") repeat;
+}
+.dd_pattern_escheresque {
+  background: grey url("/website_dd/static/src/img/patterns/escheresque.png") repeat;
+  color: white;
+}
+.dd_pattern_escheresque a {
+  color: #ffcd9e;
+}
+.dd_pattern_escheresque a:hover {
+  color: #ffa24c;
+}
+.dd_pattern_escheresque_ste {
+  background: black url("/website_dd/static/src/img/patterns/escheresque_ste.png") repeat;
+  color: white;
+}
+.dd_pattern_escheresque_ste a {
+  color: #ff8819;
+}
+.dd_pattern_escheresque_ste a:hover {
+  color: #c66000;
+}
+.dd_pattern_footer_lodyas {
+  background: black url("/website_dd/static/src/img/patterns/footer_lodyas.png") repeat;
+  color: white;
+}
+.dd_pattern_footer_lodyas a {
+  color: #ff8819;
+}
+.dd_pattern_footer_lodyas a:hover {
+  color: #c66000;
+}
+.dd_pattern_hexabump {
+  background: black url("/website_dd/static/src/img/patterns/hexabump.png") repeat;
+  color: white;
+}
+.dd_pattern_hexabump a {
+  color: #ff8819;
+}
+.dd_pattern_hexabump a:hover {
+  color: #c66000;
+}
+.dd_pattern_mooning {
+  background: url("/website_dd/static/src/img/patterns/mooning.png") repeat;
+}
+.dd_pattern_pinstriped_suit {
+  background: black url("/website_dd/static/src/img/patterns/pinstriped_suit.png") repeat;
+  color: white;
+}
+.dd_pattern_pinstriped_suit a {
+  color: #ff8819;
+}
+.dd_pattern_pinstriped_suit a:hover {
+  color: #c66000;
+}
+.dd_pattern_purty_wood {
+  background: url("/website_dd/static/src/img/patterns/purty_wood.png") repeat;
+}
+.dd_pattern_retina_wood {
+  background: url("/website_dd/static/src/img/patterns/retina_wood.png") repeat;
+}
+.dd_pattern_shattered {
+  background: url("/website_dd/static/src/img/patterns/shattered.png") repeat;
+}
+.dd_pattern_stardust {
+  background: black url("/website_dd/static/src/img/patterns/stardust.png") repeat;
+  color: white;
+}
+.dd_pattern_stardust a {
+  color: #ff8819;
+}
+.dd_pattern_stardust a:hover {
+  color: #c66000;
+}
+.dd_pattern_tweed {
+  background: black url("/website_dd/static/src/img/patterns/tweed.png") repeat;
+  color: white;
+}
+.dd_pattern_tweed a {
+  color: #ff8819;
+}
+.dd_pattern_tweed a:hover {
+  color: #c66000;
+}
+.dd_pattern_woven {
+  background: black url("/website_dd/static/src/img/patterns/woven.png") repeat;
+  color: white;
+}
+.dd_pattern_woven a {
+  color: #ff8819;
+}
+.dd_pattern_woven a:hover {
+  color: #c66000;
+}

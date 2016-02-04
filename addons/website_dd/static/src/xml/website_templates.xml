@@ -1,0 +1,12 @@
+<openerp>
+<data>
+
+    <!-- Add custom css to website Theme -->
+    <template id="website_dd.theme" name="website_dd Theme" inherit_id="website.theme">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" href='/website_dd/static/src/css/website_less.css' t-ignore="true"/>
+        </xpath>
+    </template>
+
+</data>
+</openerp>

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+ *       THIS CSS FILE IS FOR WEBSITE FRONTEND THEME CUSTOMIZATION ONLY
+ */
+
+
+/* ---- HEADER AND NAVBAR ---- */
+
+
+
+/* ---- BASIC ELEMENTS ---- */
+/* Links */
+main a {color: #e99002;}
+main a:hover {color: #824f03;}
+
+/* Buttons */
+
+/* Headings */
+
+
+/* ---- FOOTER ---- */
+
+/* Links */
+
+
+/* ---- SNIPPET OPTIONS --- */
+/* Background */
+.hof_orange {
+    background: #e99002;
+    color: white;
+}
+.hof_grey {
+    background: #b9b9b9;
+    color: black;
+}
