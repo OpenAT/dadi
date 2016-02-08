@@ -23,14 +23,19 @@ target/
 
 #odoo
 /*.conf
-backup
-data_dir
+/backup
+/data_dir
+/log
 
-#pycharm
+# Bash home
+/.bash*
+/.profile
+
+# pycharm
 .idea/
 
-#Mac OSX
+# Mac OSX
 .DS_*
 
-#Sass
+# Sass
 *.css.map
