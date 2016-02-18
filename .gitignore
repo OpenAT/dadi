@@ -23,9 +23,11 @@ target/
 
 #odoo
 /*.conf
+/status.ini
 /backup
 /data_dir
 /log
+/update
 
 # Bash home
 /.bash*
