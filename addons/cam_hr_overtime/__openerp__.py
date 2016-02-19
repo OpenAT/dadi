@@ -34,6 +34,7 @@
      (6) Scheduler which checks every timesheet and creates a request if the difference is too high 
      (7) Out of Office Sign in / Out of Office Sign out
      (8) "Lunch" button
+     mikes test
     """,
     'author': 'Andreas Brueckl',
     'website': 'http://www.camadeus.at',
