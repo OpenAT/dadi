@@ -33,7 +33,7 @@ Kundenspezifische Anpassungen an CSS, Snippets, Images und was sonst noch zum CM
 Dieses Moduel sollte in den jeweiligen Datenbank addons Ordner kopiert werden und dort dann gemäß den Anforderungen
 des Kunden angepasst werden. Interessante Code-Beispiele die für Kunden gemacht wurden sollten in dieses addon
 zurückfließen um bei neuen Kunden die Code-Vorschläge bereits zur Hand zu haben.
- 
+ _
     """,
     'author': "OpenAT",
     'website': "http://www.openat.at/",
