@@ -1,0 +1,121 @@
+// =============================
+// === Theme's Palette =========
+// =============================
+
+@color-alpha-dadi    : #f49800;
+@color-beta-dadi     : #b32986;
+@color-gamma-dadi    : #407cca;
+@color-delta-dadi    : #969397;
+@color-epsilon-dadi  : #422335;
+
+// ===========================
+// Dadi Color Set
+// ===========================
+
+@color-alpha     : @color-alpha-dadi;
+@color-beta      : @color-beta-dadi;
+@color-gamma     : @color-gamma-dadi;
+@color-delta     : @color-delta-dadi;
+@color-epsilon   : @color-epsilon-dadi; 
+
+
+// =============================
+// Bootstrap Colours ===========
+// =============================
+
+@brand-primary : @color-alpha-dadi;
+@brand-info    : @color-gamma-dadi;
+@brand-warning : #d8b643;
+@brand-danger  : #bd2b30;
+// Small Fix for List group font color
+.list-group-item {
+  color: black;
+}
+
+
+
+// =============================
+// General Colours =============
+// =============================
+
+
+#wrapwrap { 
+
+	.navbar-default .navbar-nav > .active > a > span, 
+	.navbar-default .navbar-nav > .active > a:hover > span, 
+	.navbar-default .navbar-nav > .active > a:focus > span {
+		border-bottom: 2px solid @color-epsilon  ;
+	}
+
+	.label-default {
+		background-color: @color-epsilon ;
+	}
+
+}
+
+
+// =============================
+// Snipets =====================
+// =============================
+
+
+
+.jumbotron {
+	background-color: #DDD;
+}
+
+
+// =============================
+// Layout ======================
+// =============================
+
+.graphene-layout-postcard() when (@graphene-layout-boxed = true), (@graphene-layout-postcard = true)  {
+
+	body { background:  #EDEDEE;}
+
+	header#graph_header {
+		.navbar-brand, .navbar-default .navbar-brand {
+			color: @gray-darker;
+		}
+
+		.navbar .navbar-nav > li.active > a, 
+		.navbar .navbar-nav > li.active > a:hover, 
+		.navbar .navbar-nav > li.active > a:focus {
+			color: @gray-dark;
+		}
+
+		.navbar .navbar-nav > li > a {
+			color: @gray-darker;
+		}
+	}
+
+
+}
+.graphene-layout-postcard();
+
+
+// ============ PALETTE TAB ================
+// customize_modal.less
+
+label.chd-color-combi {
+  .dadi .row {
+    div:nth-child(1) {
+      background-color: @color-alpha-dadi
+    }
+    div:nth-child(2) {
+      background-color: @color-beta-dadi
+    }
+    div:nth-child(3) {
+      background-color: @color-gamma-dadi
+    }
+    div:nth-child(4) {
+      background-color: @color-delta-dadi
+    }
+    div:nth-child(5) {
+      background-color: @color-epsilon-dadi
+    }
+  }
+}
+
+
+

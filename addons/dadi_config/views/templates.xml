@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- THEME GRAPHENE CUSTOM COLOR THEME -->
+        <template id="dadi_theme_graphene_custom" inherit_id="theme_graphene.theme_customize" name="Dadi Theme Option">
+            <!-- Add the Dadi Colour Theme-->
+            <xpath expr='//div[@id="tab_palettes"]' position="inside">
+                <!-- Open 3°row -->
+                <div class="row">
+                    <!-- Dadi Color Theme -->
+                    <div class="col-xs-6">
+                        <label class="chd-color-combi">
+                            <div class="container-fluid opt dadi">
+                                <div class="row">
+                                    <div/>
+                                    <div/>
+                                    <div/>
+                                    <div/>
+                                    <div/>
+                                </div>
+                                <p>Dadi Colors</p>
+                            </div>
+                            <input name="colorvar" type="radio" data-xmlid="dadi_config.option_color_dadi"/>
+                        </label>
+                    </div>
+                    <!-- Empty -->
+                    <div class="col-xs-6">
+                        <label class="chd-color-combi">
+                            <div class="container-fluid opt">
+
+                            </div>
+                        </label>
+                    </div>
+                <!-- Close 3°row -->
+                </div>
+            </xpath>
+        </template>
+        <!-- Load CSS into frontend -->
+        <template id="option_color_dadi" name="option_color_dadi" inherit_id="website_less.assets_frontend" active="True">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/dadi_config/static/src/less/options/colors/dadi.less" rel="stylesheet" type="text/less"/>
+            </xpath>
+        </template>
+
+
+    <!-- GOOGLE WEBMASTER TOOLS -->
+    <!--
+    <template id="google_webmastertools_site_verification" inherit_id="website.layout" name="Google Webmastertools site verification">
+        <xpath expr="//head//title" position="after">
+            <meta name="google-site-verification" content="google1234567890.html"/>
+        </xpath>
+    </template>
+    -->
+
+    </data>
+</openerp>
