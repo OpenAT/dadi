@@ -40,10 +40,12 @@ Addon for all customer specific modifications e.g.:
         'portal_sale',
         'website',
         'website_crm',
+        'website_snippet_contact_form',
         'website_sale_donate',
         'theme_graphene',
     ],
     'data': [
         'views/templates.xml',
+        'views/contact_form.xml',
     ],
 }
