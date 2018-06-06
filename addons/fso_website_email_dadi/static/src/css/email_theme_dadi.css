@@ -1,0 +1,138 @@
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(fso_base_website/static/src/fonts/glyphicons-halflings-regular.eot);
+    src: url(fso_base_website/static/src/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(fso_base_website/static/src/fonts/glyphicons-halflings-regular.woff) format('woff'), url(fso_base_website/static/src/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(fso_base_website/static/src/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+}
+
+
+
+/* MAIN */
+html, body, #bodyTable, #bodyCell {
+    background-color: #eaeaeb;
+}
+/* Main font */
+body {
+    font-family: source_sans,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+}
+/* Links */
+a {
+    color: #f49800;
+    text-decoration: none;
+}
+/* Headlines */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: source_sans,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    font-size: 42px;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+.h4, h4 {
+    font-size: 18px;
+}
+.h5, h5 {
+    font-size: 14px;
+}
+.h6, h6 {
+    font-size: 12px;
+}
+
+/* BUTTONS */
+.drop_in_button a {
+    display: block;
+    border-radius: 0;
+    background-color: white;
+    border: 1px solid #555555;
+    padding: 2px 16px;
+    text-decoration: none;
+    color: #555555;
+}
+.drop_in_button.dadi_di_button_transparent a {
+    background-color: transparent;
+}
+.drop_in_button.dadi_di_button_black a {
+    background-color: #000000;
+}
+.drop_in_button.dadi_di_button_green a {
+    background-color: #57c940;
+}
+.drop_in_button.dadi_di_button_yellow a {
+    background-color: #c9c940;
+}
+.drop_in_button.dadi_di_button_red a {
+    background-color: #c94740;
+}
+.drop_in_button.dadi_di_button_blue a {
+    background-color: #407cca;
+    color: white;
+    border-color: #407cca;
+}
+.drop_in_button.dadi_di_button_orange a {
+    background-color: #f49800;
+    color: white;
+    border-color: #f49800;
+}
+.drop_in_button.dadi_di_button_pink a {
+    background-color: #b32986;
+    color: white;
+    border-color: #b32986;
+}
+
+
+.drop_in_button.dadi_di_button_medium,
+.drop_in_button.dadi_di_button_medium a {
+    border-radius: 0;
+}
+.drop_in_button.dadi_di_button_large,
+.drop_in_button.dadi_di_button_large a {
+    border-radius: 0;
+}
+.drop_in_button.dadi_di_button_huge,
+.drop_in_button.dadi_di_button_huge a {
+    border-radius: 0;
+}
+
+/* SNIPPET OPTIONS */
+.dadi_sb_bg_lightgrey .flexibleContainerCell,
+.dadi_sb_fg_lightgrey .flexibleContainerCell .nestedContainerCell {
+    background-color: #eaeaeb;
+}
+
+.dadi_sb_bg_orange .flexibleContainerCell,
+.dadi_sb_fg_orange .flexibleContainerCell .nestedContainerCell {
+    background-color: #f49800;
+    color: white;
+}
+
+.dadi_sb_bg_pink .flexibleContainerCell,
+.dadi_sb_fg_pink .flexibleContainerCell .nestedContainerCell {
+    background-color: #b32986;
+    color: white;
+}
+
+.dadi_sb_bg_blue .flexibleContainerCell,
+.dadi_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    background-color: #407cca;
+    color: white;
+}
+
+.dadi_sb_fg_pink .flexibleContainerCell .nestedContainerCell,
+.dadi_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
