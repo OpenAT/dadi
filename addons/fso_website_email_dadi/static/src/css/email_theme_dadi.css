@@ -2,6 +2,13 @@
 html, body, #bodyTable, #bodyCell {
     background-color: #eaeaeb;
 }
+.headerCell, #bodyCell {
+    padding-top: 20px;
+}
+#bodyCell {
+    padding-bottom: 12px;
+}
+
 /* Main font */
 body {
     font-family: source_sans,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
@@ -9,17 +16,42 @@ body {
     line-height: 1.42857143;
     color: #555;
 }
+p {
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
 /* Links */
 a {
     color: #f49800;
     text-decoration: none;
 }
 /* Headlines */
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0;
+}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: source_sans,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     font-weight: 300;
     line-height: 1.1;
     color: inherit;
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
 }
 h1 {
     font-size: 42px;

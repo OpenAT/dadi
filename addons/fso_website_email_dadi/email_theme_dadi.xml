@@ -101,6 +101,8 @@
                         
                         // Add Custom font and font background colors
                         config.colorButton_colors = 'ffffff,555555,000000,cccccc,b32986,f49800,407cca,57c940,c9c940,c94740';
+                        // config.colorButton_colorsPerRow = 4;
+                        // config.colorButton_enableAutomatic = true;
                         
                         // return the config
                         return config;
@@ -165,7 +167,7 @@
                             <!-- HEADER -->
                             <tr>
                                 <td class="headerCell ckediting_disabled" align="center">
-                                    <a href="%open_browser%" target="_blank">View e-mail in browser</a>
+                                    <a href="%open_browser%" target="_blank">E-Mail in Browser anzeigen</a>
                                 </td>
                             </tr>
 
@@ -191,7 +193,42 @@
                             <!-- FOOTER -->
                             <tr>
                                 <td align="center" class="footerCell ckediting_disabled">
-
+                                    
+                                    <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0" cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center" valign="top">
+                                                                            <table class="contentTable" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_disabled" align="center" valign="top" contenteditable="false">
+                                                                                    
+                                                                                        <a href="https://www.datadialog.net" target="_blank">www.datadialog.net</a>
+                                                                                        |
+                                                                                        <a href="https://www.datadialog.net" target="_blank">Kontaktformular</a>
+                                                                                        |
+                                                                                        <a href="mailto:office@datadialog.net" target="_blank">E-Mail</a>
+                                                    
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                    
                                 </td>
                             </tr>
 
