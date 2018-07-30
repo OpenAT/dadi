@@ -167,7 +167,10 @@
                             <!-- HEADER -->
                             <tr>
                                 <td class="headerCell ckediting_disabled" align="center">
-                                    <a href="%open_browser%" target="_blank">E-Mail in Browser anzeigen</a>
+                                    <a id="view-email-in-browser"
+                                       href="http://multimail.datadialog.net/view.php/%xGuid%" target="_blank">
+                                        Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die Online-Version
+                                    </a>
                                 </td>
                             </tr>
 
@@ -208,11 +211,10 @@
                                                                                 <tr>
                                                                                     <td class="textContent ckediting_disabled" align="center" valign="top" contenteditable="false">
                                                                                     
-                                                                                        <a href="https://www.datadialog.net" target="_blank">www.datadialog.net</a>
-                                                                                        |
-                                                                                        <a href="https://www.datadialog.net/page/website.contactus" target="_blank">Kontaktformular</a>
-                                                                                        |
-                                                                                        <a href="mailto:contact@datadialog.net" target="_blank">E-Mail</a>
+                                                                                        <a href="https://www.datadialog.net" target="_blank">www.datadialog.net</a>&amp;nbsp;|&amp;nbsp;
+                                                                                        <a href="http://www.datadialog.net/page/website.contactus" target="_blank">Kontaktformular</a>&amp;nbsp;|&amp;nbsp;
+                                                                                        <!-- a href="mailto:office@datadialog.net" target="_blank">E-Mail</a>&amp;nbsp;|&amp;nbsp; -->
+                                                                                        <a href="mailto:contact@datadialog.net" target="_blank">vom Newsletter abmelden?</a>
                                                     
                                                                                     </td>
                                                                                 </tr>
