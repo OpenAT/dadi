@@ -169,7 +169,7 @@
                                 <td class="headerCell ckediting_disabled" align="center">
                                     Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die
                                     <a id="view-email-in-browser"
-                                       href="http://multimail.datadialog.net/view.php/%xGuid%" target="_blank">
+                                       href="%open_browser%" target="_blank">
                                          Online-Version
                                     </a>
                                 </td>
