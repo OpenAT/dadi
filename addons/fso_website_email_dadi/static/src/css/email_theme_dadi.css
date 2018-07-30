@@ -5,6 +5,9 @@ html, body, #bodyTable, #bodyCell {
 .headerCell, #bodyCell {
     padding-top: 20px;
 }
+.headerCell {
+    font-size: 12px;
+}
 #bodyCell {
     padding-bottom: 12px;
 }
