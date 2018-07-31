@@ -168,10 +168,12 @@
                             <tr>
                                 <td class="headerCell ckediting_disabled" align="center">
                                     Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die
+                                    <![CDATA[
                                     <a id="view-email-in-browser"
                                        href="%open_browser%" target="_blank">
                                          Online-Version
                                     </a>
+                                    ]]>
                                 </td>
                             </tr>
 
