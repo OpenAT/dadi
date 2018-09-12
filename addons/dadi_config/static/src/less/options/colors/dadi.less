@@ -150,8 +150,13 @@ label.chd-color-combi {
 
 // ======== Blog Posts =======
 
+// ignore different image sizes and always use max available space
 #blog_content > section > div > div > div img {
     max-width: 100%;
+}
+
+#blog_content > section > div > div > div .img-responsive {
+    display: inline !important;
 }
 
 .cover {
