@@ -148,6 +148,83 @@ label.chd-color-combi {
 	margin-top:10px;
 }
 
+/* -------- Big Picture am Kopf der Seite inside menü BEGIN --------- */
+
+/* MENÜ am Handy */
+@media (max-width: 614px) {
+    #top_menu > li {
+      width: fit-content;
+        background-color: rgba(244, 152, 0, 0.61);
+    }
+    #top_menu > li.dropdown.open > ul > li {
+      background-color: rgba(244, 152, 0, 0.4);
+    }
+      default .navbar-toggle:hover {
+        background-color: rgba(244, 152, 0, 0.61);
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: rgba(244, 152, 0, 0.90);
+    }
+
+}
+
+/* NEUER HEADER BANNER Big Picture */
+  #wrap > section:nth-child(1) > div {
+    height: 490px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background-image: url(/theme_graphene/static/src/img/patterns/bg_pattern_05.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 42%;
+    color: #555;
+  }
+  #wrap > section:nth-child(1) > div > div {
+    margin-top: 90px;
+  }
+  #wrap > section:nth-child(1) > div > div > div > img {
+    min-height: auto;
+  }
+  #wrap > section.s_page_header.o_animate.bg-white.o_visible.o_animating {
+    //position:relative;
+    margin-top: 390px;
+  }
+
+  @media (max-width: 768px) {
+    #wrap > section:nth-child(1) > div {
+      margin-top: 30px !important;
+      height: 290px !important;
+    }
+
+    #wrap > section:nth-child(1) > div > div {
+      height: 290px !important;
+    }
+
+    #wrap > section:nth-child(1) > div > div > div {
+      height: 290px !important;
+
+    }
+
+    #wrap > section:nth-child(1) > div > div > div > img {
+      height: auto;
+      width: 100%;
+    }
+
+    #wrap > section.s_page_header.o_animate.bg-white.o_visible.o_animating {
+      //position:relative;
+      margin-top: 230px !important;
+    }
+  }
+
+  #wrap[data-oe-id="102429"], footer > #footer, footer > .container {
+    padding-top: 0px;
+  }
+
+/* -------- Big Picture am Kopf der Seite inside menü END -------- */
+
 // Home Page Custom Gallery logos 
 #wrap > section > div.container-fluid.oe_structure > section > div.container > div.custom-gallery > div a > img  {
     width: auto !important;
