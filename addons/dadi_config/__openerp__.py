@@ -42,10 +42,12 @@ Addon for all customer specific modifications e.g.:
         'website_crm',
         'website_snippet_contact_form',
         'website_sale_donate',
+        'website_less',
         'theme_graphene',
     ],
     'data': [
         'views/templates.xml',
         'views/contact_form.xml',
+        #'views/snippets.xml', # DISABLED BECAUSE NOT NEEDED!
     ],
 }

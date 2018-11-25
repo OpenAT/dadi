@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp><data>
+    
+    <!-- Media Block Image: Snippet's Body -->
+    <template id="snippet_media_block_image" name="Media Block Image"
+              inherit_id="website.snippets">
+        
+        <xpath expr="//div[@id='snippet_feature']" position="inside">
+        
+            <div>
+                <!-- Icon and name -->
+                <div class="oe_snippet_thumbnail">
+                    <img class="oe_snippet_thumbnail_img"
+                         src="/theme_graphene/static/src/img/ui/s_media_block-thumb.jpg"/>
+                    <span class="oe_snippet_thumbnail_title">Media Block Image</span>
+                </div>
+                
+                <!-- Content -->
+                <section class="oe_snippet_body media_block_image" style="height:600px">
+                    <div class="media_block_image_bg v-align text-center">
+                        <a href="#">
+                            <img src="#" class="media_block_image_fg"/>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        
+        </xpath>
+        
+    </template>
+    
+    <!-- Media Block Image: Snippet's Options -->
+    <template id="snippet_media_block_image_options"
+              inherit_id="website.snippets">
+        
+        <xpath expr="//div[@id='snippet_options']" position="inside">
+        
+            <div data-snippet-option-id='media_block_image_options'
+                 data-selector=".media_block_image"
+                 data-selector-siblings="section"
+                 data-selector-children="#wrap">
+                
+                <!-- Snippet options menu -->
+                <li class="dropdown-submenu" data-required="True">
+                    <a tabindex="-1" href="#">Position</a>
+                    <ul class="dropdown-menu">
+                        <li data-value='media_block_image_position_normal'><a>Normal</a></li>
+                        <li data-value='media_block_image_position_head'><a>Head</a></li>
+                    </ul>
+                </li>
+                
+            </div>
+        
+        </xpath>
+        
+    </template>
+    
+    
+    
+</data></openerp>
