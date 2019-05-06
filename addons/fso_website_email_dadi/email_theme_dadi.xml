@@ -3,7 +3,7 @@
 <data>
     
     <!-- INHERIT AND EXTEND theme_default_snippets -->
-    <template id="email_theme_dadi_snippets_overrides" inherit_id="fso_website_email.theme_default_snippets" name="Email Theme Dadi Snippet overrides">
+    <template id="email_theme_dadi_snippets_overrides" inherit_id="fso_website_email.theme_framework_snippets" name="Email Theme Dadi Snippet overrides">
         
         <!-- Additional Button Options -->
         <xpath expr="//div[@data-snippet-option-id='drop_in_button_style']//ul/li[1]" position="after">
@@ -29,7 +29,7 @@
     <!-- THEME 'DADI' SNIPPETS -->
     <template id="email_theme_dadi_snippets">
         <!-- Simply Load theme_default_snippets :) -->
-        <t t-call="fso_website_email.theme_default_snippets"/>
+        <t t-call="fso_website_email.theme_framework_snippets"/>
     </template>
     
     
@@ -135,7 +135,7 @@
 
             <!-- TEMPLATE SETTINGS -->
             <!-- ================= -->
-            <t t-set="load_default_theme" t-value="True"/>
+            <t t-set="load_theme_framework" t-value="True"/>
             <!-- ================= -->
 
             <head>
