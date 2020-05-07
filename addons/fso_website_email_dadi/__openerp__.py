@@ -42,7 +42,9 @@ Custom Newsletter-Theme for Dadi based on the website design.
         'fso_website_email',
     ],
     'data': [
+        'email_theme_dadi_snippets.xml',
         'email_theme_dadi.xml',
+        'email_theme_dadi_combined_snippets.xml',
     ],
     'qweb': [
     ],

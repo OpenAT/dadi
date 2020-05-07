@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+    <!-- INHERIT AND EXTEND theme_default_snippets -->
+    <template id="email_theme_dadi_snippets_overrides_part2" inherit_id="fso_website_email.theme_framework_snippets"
+              name="Email Theme dadi Snippet overrides part2">
+
+        <xpath expr="//li[@id='snippet_menu_special']" position="after">
+            <li id="snippet_menu_combined_snippets_dadi">
+                <a href="#combined_snippets_dadi" data-toggle="tab">Combined</a>
+            </li>
+        </xpath>
+
+        <!-- ======================= -->
+        <!--  dadi COMBINED SNIPPETS -->
+        <!-- ======================= -->
+        <xpath expr="//div[@id='snippet_email_special']" position="after">
+            <div id="combined_snippets_dadi" class="tab-pane fade">
+
+                <!-- HEADER SNIPPET BLOCK ALLG -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_dadi/static/src/icons/dadi-header-icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled dadi_bin">
+                     <div class="snippet_block ckediting_enabled snippet_block_text_intro dadi_sb_bg_background dadi_sb_bg_lightgrey">
+                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled"
+                                                                                        contenteditable="true">
+                                                                                        <p class="dadi_tiny"
+                                                                                           style="text-align: center; font-size: 12px;">
+                                                                                            Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die,
+                                                                                            <a href="%open_browser%" data-cke-saved-href="%open_browser%" target="_blank" style="text-align: right; color: #f49800; font-weight: 400; font-size: 12px;">Online Version</a>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="combinedheadersnippet" class="ckediting_enabled snippet_block_banner dadi_sb_bg_full">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled">
+                                                                                        <a href="#">
+                                                                                            <img class="flexibleImage snippet_block_banner_image"
+                                                                                                 src="/fso_website_email_dadi/static/src/img/newsletter_banner_dadi.png"/>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                        <div id="combinedheadersnippetsub" class="ckediting_enabled snippet_block snippet_block_text_intro" contenteditable="false">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
+                                                                                            <h4 style="text-align: right;">
+                                                                                                <strong>Newsletter Mai
+                                                                                                    2020
+                                                                                                </strong>
+                                                                                            </h4>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="combinedheadersnippetspacer" class="ckediting_enabled snippet_block snippet_block_spacer dadi_sb_bg_lightgrey"
+                             contenteditable="false">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table class="snippet_block_spacer_top"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>
+                                                                                                            <br/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table class="snippet_block_spacer_bottom"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>
+                                                                                                            <br/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER SNIPPET BLOCK -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_dadi/static/src/icons/dadi-footer-icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
+                    </div>
+                    <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_disabled dadi_bin">
+                        <div id="footerteam" class="ckediting_enabled snippet_block snippet_block_text_intro">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p>Viel Spaß beim Fundraisen
+                                                                                                wünscht euch
+                                                                                                <br/>
+                                                                                                euer <em>Fundraising
+                                                                                                    Studio
+                                                                                                </em> - Team!
+                                                                                            </p>
+
+                                                                                            <p>
+                                                                                                <img src="/fso_website_email_dadi/static/src/img/dadi_frst_logo.png"/>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="ckediting_enabled snippet_block snippet_block_spacer dadi_sb_spacer_none dadi_sb_bg_lightgrey" contenteditable="false">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table class="snippet_block_spacer_top"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>
+                                                                                                            <br/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table class="snippet_block_spacer_bottom"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>
+                                                                                                            <br/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="mediaicons" class="ckediting_enabled snippet_block snippet_block_text_threecol">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="http://www.facebook.com/datadialog"
+                                                                                                               target="_blank">
+                                                                                                                <img class="flexibleImage mediaicon"
+                                                                                                                     src="/fso_website_email_dadi/static/src/icons/fb-logo-dadi-orange.png"
+                                                                                                                     style="text-align:center; width:35px; height:35px;"/>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="http://twitter.com/datadialog"
+                                                                                                               target="_blank">
+                                                                                                                <img class="flexibleImage mediaicon"
+                                                                                                                     src="/fso_website_email_dadi/static/src/icons/twitter-logo-dadi-orange.png"
+                                                                                                                     style="text-align:center; width:35px; height:35px;"/>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="https://www.youtube.com/channel/UCMK52f-PkcIYINj6pkcrAsw"
+                                                                                                               target="_blank">
+                                                                                                                <img class="flexibleImage mediaicon"
+                                                                                                                     src="/fso_website_email_dadi/static/src/icons/youtube-logo-dadi-orange.png"
+                                                                                                                     style="text-align:center; width:35px; height:35px;"/>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                            <div id="footerbottom" class="ckediting_enabled snippet_block">
+
+                                <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tr>
+                                                                                <td class="textContent ckediting_disabled"
+                                                                                    align="center" valign="top"
+                                                                                    contenteditable="false">
+
+                                                                                    <a href="https://www.datadialog.net"
+                                                                                       target="_blank">
+                                                                                        www.datadialog.net</a>&amp;nbsp;|&amp;nbsp;
+                                                                                    <a href="http://www.datadialog.net/page/website.contactus"
+                                                                                       target="_blank">
+                                                                                        Kontaktformular</a>&amp;nbsp;|&amp;nbsp;
+                                                                                    <!-- a href="mailto:office@datadialog.net" target="_blank">E-Mail</a>&amp;nbsp;|&amp;nbsp; -->
+                                                                                    <a href="mailto:contact@datadialog.net"
+                                                                                       target="_blank">vom Newsletter
+                                                                                        abmelden?
+                                                                                    </a>
+
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</data>
+</openerp>
